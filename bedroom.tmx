@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="9" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="1">
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="9" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="1">
+ <editorsettings>
+  <export target="bedroom.json" format="json"/>
+ </editorsettings>
  <tileset firstgid="1" source="tiles/tilesets/cija_32x32_expansion for Pipoya_CC0.tsx"/>
  <tileset firstgid="2395" source="tiles/tilesets/rc3-mullana-stars.tsx"/>
  <tileset firstgid="2495" source="tiles/tilesets/mapUtilities.tsx"/>
@@ -100,4 +103,5 @@
 0,0,0,0,0,0,1335,0,0
 </data>
  </layer>
+ <objectgroup id="9" name="floorLayer"/>
 </map>

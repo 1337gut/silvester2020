@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="8" height="6" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="1">
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="8" height="6" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="1">
+ <editorsettings>
+  <export target="bathroom.json" format="json"/>
+ </editorsettings>
  <tileset firstgid="1" source="tiles/tilesets/rc3-mullana-foyer.tsx"/>
  <tileset firstgid="1025" source="tiles/tilesets/cija_32x32_expansion for Pipoya_CC0.tsx"/>
  <tileset firstgid="3419" source="tiles/tilesets/LightShadow_pipo.tsx"/>
@@ -75,16 +78,6 @@
 0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="4" name="shadow" width="8" height="6">
-  <data encoding="csv">
-0,0,0,0,0,0,0,0,
-0,3432,3432,3432,3432,3432,0,0,
-0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,2072,
-0,0,0,0,0,0,0,2072,
-0,0,0,0,0,0,0,0
-</data>
- </layer>
  <layer id="3" name="doors" width="8" height="6">
   <data encoding="csv">
 0,0,0,0,0,0,2359,0,
@@ -93,6 +86,17 @@
 0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,2184,0
+</data>
+ </layer>
+ <objectgroup id="10" name="floorLayer"/>
+ <layer id="4" name="shadow" width="8" height="6">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,
+0,3432,3432,3432,3432,3432,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,2072,
+0,0,0,0,0,0,0,2072,
+0,0,0,0,0,0,0,0
 </data>
  </layer>
 </map>
