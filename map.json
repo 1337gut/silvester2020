@@ -11,7 +11,7 @@
  "infinite":false,
  "layers":[
         {
-         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6346, 6346, 0, 0, 0, 0, 0, 0, 0, 0],
+         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5772, 5772, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":9,
          "id":8,
          "name":"start",
@@ -23,7 +23,7 @@
          "y":0
         }, 
         {
-         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6348, 6348, 6348, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5774, 5774, 5774, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":9,
          "id":9,
          "name":"stop",
@@ -35,7 +35,7 @@
          "y":0
         }, 
         {
-         "data":[0, 0, 0, 0, 0, 0, 0, 6345, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+         "data":[0, 0, 0, 0, 0, 0, 0, 5771, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":9,
          "id":7,
          "name":"exit",
@@ -53,7 +53,7 @@
          "y":0
         }, 
         {
-         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9318, 9318, 9320, 9318, 9320, 9318, 9318, 9319, 9331, 9318, 9318, 9318, 9328, 9318, 9318, 9318, 9331, 9318, 9320, 9318, 9318, 9318, 9318, 9318, 9331],
+         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8743, 8743, 8745, 8743, 8745, 8743, 8743, 8744, 8756, 8743, 8743, 8743, 8753, 8743, 8743, 8743, 8756, 8743, 8745, 8743, 8743, 8743, 8743, 8743, 8756],
          "height":9,
          "id":1,
          "name":"boden",
@@ -65,7 +65,7 @@
          "y":0
         }, 
         {
-         "data":[0, 0, 0, 0, 0, 9318, 9318, 9318, 9318, 9318, 9318, 9318, 9318, 9318, 9318, 9318, 9318, 9318, 9318, 9318, 9406, 9407, 0, 0, 0, 9422, 9423, 0, 0, 0, 9390, 9391, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+         "data":[0, 0, 0, 0, 0, 8743, 8743, 8743, 8743, 8743, 8743, 8743, 8743, 8743, 8743, 8743, 8743, 8743, 8743, 8743, 8831, 8832, 0, 0, 0, 8847, 8848, 0, 0, 0, 8815, 8816, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":9,
          "id":2,
          "name":"entry",
@@ -77,7 +77,7 @@
          "y":0
         }, 
         {
-         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6327, 0, 0, 0, 6311, 6326, 0, 6301, 6301, 6301, 6327, 0, 6318, 6318, 6318, 6327, 0, 0, 0, 0, 6327, 0, 0, 0, 0, 6327, 0, 0, 0, 0, 6325, 0, 0, 0, 0],
+         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5753, 0, 0, 0, 5737, 5752, 0, 5727, 5727, 5727, 5753, 0, 5744, 5744, 5744, 5753, 0, 0, 0, 0, 5753, 0, 0, 0, 0, 5753, 0, 0, 0, 0, 5751, 0, 0, 0, 0],
          "height":9,
          "id":3,
          "name":"shadow",
@@ -89,7 +89,7 @@
          "y":0
         }, 
         {
-         "data":[3373, 3370, 3370, 3370, 3370, 3391, 3388, 3388, 3388, 3388, 0, 0, 0, 0, 0, 0, 0, 9630, 9633, 9633, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+         "data":[3373, 3370, 3370, 3370, 3370, 3391, 3388, 3388, 3388, 3388, 0, 0, 0, 0, 0, 0, 0, 9055, 9058, 9058, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":9,
          "id":4,
          "name":"top",
@@ -143,124 +143,426 @@
  "tileheight":32,
  "tilesets":[
         {
+         "columns":8,
          "firstgid":1,
-         "source":"tiles\/tilesets\/rpg.tsx"
+         "image":"tiles\/Pipoya RPG Tileset 32x32\/[Base]BaseChip_pipo.png",
+         "imageheight":4256,
+         "imagewidth":256,
+         "margin":0,
+         "name":"rpg",
+         "spacing":0,
+         "tilecount":1064,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
+         "columns":12,
          "firstgid":1065,
-         "source":"tiles\/tilesets\/addwork.tsx"
+         "image":"tiles\/addwork.png",
+         "imageheight":2048,
+         "imagewidth":384,
+         "margin":0,
+         "name":"addwork",
+         "spacing":0,
+         "tilecount":768,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
+         "columns":20,
          "firstgid":1833,
-         "source":"tiles\/tilesets\/cija_32x32_basic_CC0.tsx"
+         "image":"tiles\/cija_32x32_basic_CC0.png",
+         "imageheight":960,
+         "imagewidth":640,
+         "margin":0,
+         "name":"cija_32x32_basic_CC0",
+         "spacing":0,
+         "tilecount":600,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
+         "columns":18,
          "firstgid":2433,
-         "source":"tiles\/tilesets\/cija_32x32_expansion for Pipoya_CC0.tsx"
+         "image":"tiles\/cija_32x32_expansion for Pipoya_CC0.png",
+         "imageheight":4256,
+         "imagewidth":576,
+         "margin":0,
+         "name":"cija_32x32_expansion for Pipoya_CC0",
+         "spacing":0,
+         "tilecount":2394,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
+         "columns":16,
          "firstgid":4827,
-         "source":"tiles\/tilesets\/Interior 1.tsx"
+         "image":"tiles\/Interiors_free\/32x32\/Interiors_free_32x32.png",
+         "imageheight":1792,
+         "imagewidth":512,
+         "margin":0,
+         "name":"Interior 1",
+         "spacing":0,
+         "tilecount":896,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
+         "columns":8,
          "firstgid":5723,
-         "source":"tiles\/tilesets\/Interior 2.tsx"
+         "image":"tiles\/Pipoya RPG Tileset 32x32\/LightShadow_pipo.png",
+         "imageheight":192,
+         "imagewidth":256,
+         "margin":0,
+         "name":"LightShadow_pipo",
+         "spacing":0,
+         "tilecount":48,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
-         "firstgid":5823,
-         "source":"tiles\/tilesets\/Interior 3.tsx"
+         "columns":9,
+         "firstgid":5771,
+         "image":"tiles\/mapUtilities.png",
+         "imageheight":32,
+         "imagewidth":288,
+         "margin":0,
+         "name":"mapUtilities",
+         "spacing":0,
+         "tilecount":9,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
-         "firstgid":5923,
-         "source":"tiles\/tilesets\/Interior 4.tsx"
+         "columns":7,
+         "firstgid":5780,
+         "image":"tiles\/minideko.png",
+         "imageheight":416,
+         "imagewidth":224,
+         "margin":0,
+         "name":"minideko",
+         "spacing":0,
+         "tilecount":91,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
-         "firstgid":6023,
-         "source":"tiles\/tilesets\/Interior 5.tsx"
+         "columns":0,
+         "firstgid":5871,
+         "grid":
+            {
+             "height":1,
+             "orientation":"orthogonal",
+             "width":1
+            },
+         "margin":0,
+         "name":"Pizza",
+         "spacing":0,
+         "tilecount":5,
+         "tileheight":32,
+         "tiles":[
+                {
+                 "id":0,
+                 "image":"tiles\/pizza_1.png",
+                 "imageheight":32,
+                 "imagewidth":32
+                }, 
+                {
+                 "id":1,
+                 "image":"tiles\/pizza_2.png",
+                 "imageheight":32,
+                 "imagewidth":32
+                }, 
+                {
+                 "id":2,
+                 "image":"tiles\/pizza_3.png",
+                 "imageheight":32,
+                 "imagewidth":32
+                }, 
+                {
+                 "id":3,
+                 "image":"tiles\/pizza_4.png",
+                 "imageheight":32,
+                 "imagewidth":32
+                }, 
+                {
+                 "id":4,
+                 "image":"tiles\/pizza_5.png",
+                 "imageheight":32,
+                 "imagewidth":32
+                }],
+         "tilewidth":32
         }, 
         {
-         "firstgid":6123,
-         "source":"tiles\/tilesets\/Interior 6.tsx"
+         "columns":16,
+         "firstgid":5876,
+         "image":"tiles\/rc3-mullana-colors-128.png",
+         "imageheight":256,
+         "imagewidth":512,
+         "margin":0,
+         "name":"rc3-mullana-colors-128",
+         "spacing":0,
+         "tilecount":128,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
-         "firstgid":6291,
-         "source":"tiles\/tilesets\/Interiors.tsx"
+         "columns":32,
+         "firstgid":6004,
+         "image":"tiles\/rc3-mullana-foyer.png",
+         "imageheight":1024,
+         "imagewidth":1024,
+         "margin":0,
+         "name":"rc3-mullana-foyer",
+         "spacing":0,
+         "tilecount":1024,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
-         "firstgid":6297,
-         "source":"tiles\/tilesets\/LightShadow_pipo.tsx"
+         "columns":16,
+         "firstgid":7028,
+         "image":"tiles\/rc3-mullana-functionary.png",
+         "imageheight":512,
+         "imagewidth":512,
+         "margin":0,
+         "name":"rc3-mullana-functionary",
+         "spacing":0,
+         "tilecount":256,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
-         "firstgid":6345,
-         "source":"tiles\/tilesets\/mapUtilities.tsx"
+         "columns":16,
+         "firstgid":7284,
+         "image":"tiles\/rc3-mullana-neon-signs.png",
+         "imageheight":512,
+         "imagewidth":512,
+         "margin":0,
+         "name":"rc3-mullana-neon-signs",
+         "spacing":0,
+         "tilecount":256,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
-         "firstgid":6354,
-         "source":"tiles\/tilesets\/minideko.tsx"
+         "columns":16,
+         "firstgid":7540,
+         "image":"tiles\/rc3-mullana-objects.png",
+         "imageheight":256,
+         "imagewidth":512,
+         "margin":0,
+         "name":"rc3-mullana-objects",
+         "spacing":0,
+         "tilecount":128,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
-         "firstgid":6445,
-         "source":"tiles\/tilesets\/Pizza.tsx"
-        }, 
-        {
-         "firstgid":6450,
-         "source":"tiles\/tilesets\/pizza_1.tsx"
-        }, 
-        {
-         "firstgid":6451,
-         "source":"tiles\/tilesets\/rc3-mullana-colors-128.tsx"
-        }, 
-        {
-         "firstgid":6579,
-         "source":"tiles\/tilesets\/rc3-mullana-foyer.tsx"
-        }, 
-        {
-         "firstgid":7603,
-         "source":"tiles\/tilesets\/rc3-mullana-functionary.tsx"
-        }, 
-        {
-         "firstgid":7859,
-         "source":"tiles\/tilesets\/rc3-mullana-neon-signs.tsx"
-        }, 
-        {
-         "firstgid":8115,
-         "source":"tiles\/tilesets\/rc3-mullana-objects.tsx"
-        }, 
-        {
-         "firstgid":8243,
+         "firstgid":7668,
          "source":"tiles\/tilesets\/rc3-mullana-overlay.tsx"
         }, 
         {
-         "firstgid":8755,
+         "firstgid":8180,
          "source":"tiles\/tilesets\/rc3-mullana-single-use.tsx"
         }, 
         {
-         "firstgid":9011,
-         "source":"tiles\/tilesets\/rc3-mullana-stars.tsx"
+         "columns":10,
+         "firstgid":8436,
+         "image":"tiles\/rc3-mullana-stars.png",
+         "imageheight":320,
+         "imagewidth":320,
+         "margin":0,
+         "name":"rc3-mullana-stars",
+         "spacing":0,
+         "tilecount":100,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
-         "firstgid":9111,
-         "source":"tiles\/tilesets\/SCI-Fi Rougelike Micropack.tsx"
+         "columns":17,
+         "firstgid":8536,
+         "image":"tiles\/tileset.png",
+         "imageheight":352,
+         "imagewidth":544,
+         "margin":0,
+         "name":"SCI-Fi Rougelike Micropack",
+         "spacing":0,
+         "tilecount":187,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
-         "firstgid":9298,
+         "firstgid":8723,
          "source":"tiles\/tilesets\/unicorn.tsx"
         }, 
         {
-         "firstgid":9299,
+         "firstgid":8724,
          "source":"tiles\/tilesets\/wc_unisex.tsx"
         }, 
         {
-         "firstgid":9300,
-         "source":"tiles\/tilesets\/Sammlung.tsx"
+         "columns":0,
+         "firstgid":8725,
+         "grid":
+            {
+             "height":1,
+             "orientation":"orthogonal",
+             "width":1
+            },
+         "margin":0,
+         "name":"Sammlung",
+         "spacing":0,
+         "tilecount":18,
+         "tileheight":64,
+         "tiles":[
+                {
+                 "id":0,
+                 "image":"tiles\/brot1.png",
+                 "imageheight":32,
+                 "imagewidth":32
+                }, 
+                {
+                 "id":1,
+                 "image":"tiles\/brot2.png",
+                 "imageheight":32,
+                 "imagewidth":32
+                }, 
+                {
+                 "id":2,
+                 "image":"tiles\/brotplakat.png",
+                 "imageheight":64,
+                 "imagewidth":32
+                }, 
+                {
+                 "id":3,
+                 "image":"tiles\/cyber.png",
+                 "imageheight":32,
+                 "imagewidth":32
+                }, 
+                {
+                 "id":4,
+                 "image":"tiles\/cyber1.png",
+                 "imageheight":32,
+                 "imagewidth":32
+                }, 
+                {
+                 "id":5,
+                 "image":"tiles\/cyber2.png",
+                 "imageheight":32,
+                 "imagewidth":32
+                }, 
+                {
+                 "id":6,
+                 "image":"tiles\/cyber3.png",
+                 "imageheight":32,
+                 "imagewidth":32
+                }, 
+                {
+                 "id":7,
+                 "image":"tiles\/cyber4.png",
+                 "imageheight":32,
+                 "imagewidth":32
+                }, 
+                {
+                 "id":8,
+                 "image":"tiles\/mehlsack.png",
+                 "imageheight":32,
+                 "imagewidth":32
+                }, 
+                {
+                 "id":9,
+                 "image":"tiles\/schuessel_pink.png",
+                 "imageheight":32,
+                 "imagewidth":32
+                }, 
+                {
+                 "id":10,
+                 "image":"tiles\/schuessel_blau.png",
+                 "imageheight":32,
+                 "imagewidth":32
+                }, 
+                {
+                 "id":11,
+                 "image":"tiles\/schuessel_gruen.png",
+                 "imageheight":32,
+                 "imagewidth":32
+                }, 
+                {
+                 "id":12,
+                 "image":"tiles\/schuessel_orange.png",
+                 "imageheight":32,
+                 "imagewidth":32
+                }, 
+                {
+                 "id":13,
+                 "image":"tiles\/worldExit.png",
+                 "imageheight":64,
+                 "imagewidth":64
+                }, 
+                {
+                 "id":14,
+                 "image":"tiles\/unicorn.png",
+                 "imageheight":32,
+                 "imagewidth":32
+                }, 
+                {
+                 "id":15,
+                 "image":"tiles\/unicorn_2.png",
+                 "imageheight":32,
+                 "imagewidth":32
+                }, 
+                {
+                 "id":16,
+                 "image":"tiles\/waffelplakat.png",
+                 "imageheight":64,
+                 "imagewidth":32
+                }, 
+                {
+                 "id":17,
+                 "image":"tiles\/wc_unisex.png",
+                 "imageheight":32,
+                 "imagewidth":32
+                }],
+         "tilewidth":64
         }, 
         {
-         "firstgid":9318,
-         "source":"tiles\/tilesets\/floortileset.tsx"
+         "columns":8,
+         "firstgid":8743,
+         "image":"floortileset.png",
+         "imageheight":272,
+         "imagewidth":272,
+         "margin":0,
+         "name":"floortileset",
+         "spacing":0,
+         "tilecount":64,
+         "tileheight":34,
+         "tilewidth":34
         }, 
         {
-         "firstgid":9382,
-         "source":"tiles\/tilesets\/tilesets_deviant_milkian_1.tsx"
+         "columns":16,
+         "firstgid":8807,
+         "image":"tilesets_deviant_milkian_1.png",
+         "imageheight":544,
+         "imagewidth":544,
+         "margin":0,
+         "name":"tilesets_deviant_milkian_1",
+         "spacing":0,
+         "tilecount":256,
+         "tileheight":34,
+         "tilewidth":34
+        }, 
+        {
+         "columns":12,
+         "firstgid":9063,
+         "image":"tiles\/addwork.png",
+         "imageheight":2048,
+         "imagewidth":384,
+         "margin":0,
+         "name":"addwork",
+         "spacing":0,
+         "tilecount":768,
+         "tileheight":32,
+         "tilewidth":32
         }],
  "tilewidth":32,
  "type":"map",
