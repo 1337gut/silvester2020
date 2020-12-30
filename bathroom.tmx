@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="8" height="6" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="1">
+ <tileset firstgid="1" source="tiles/tilesets/rc3-mullana-foyer.tsx"/>
+ <tileset firstgid="1025" source="tiles/tilesets/cija_32x32_expansion for Pipoya_CC0.tsx"/>
+ <tileset firstgid="3419" source="tiles/tilesets/LightShadow_pipo.tsx"/>
+ <tileset firstgid="3467" source="tiles/tilesets/mapUtilities.tsx"/>
+ <tileset firstgid="3476" source="tiles/tilesets/tilesets_deviant_milkian_1.tsx"/>
+ <layer id="5" name="start" width="8" height="6">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,3468,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="6" name="stop" width="8" height="6">
+  <data encoding="csv">
+3470,3470,3470,3470,3470,3470,0,0,
+3470,0,0,0,0,3470,3470,3470,
+3470,0,0,0,0,0,0,3470,
+3470,0,0,0,0,0,0,3470,
+3470,3470,3470,3470,0,0,0,3470,
+0,0,0,3470,3470,3470,0,3470
+</data>
+ </layer>
+ <layer id="7" name="exit" width="8" height="6">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,3467,0
+</data>
+ </layer>
+ <layer id="1" name="floor" width="8" height="6">
+  <data encoding="csv">
+1677,1677,1677,1677,1677,1677,1677,1677,
+1677,1677,1677,1677,1677,1677,1677,1677,
+1677,1677,1677,1677,1677,1677,1677,1677,
+1677,1677,1677,1677,1677,1677,1677,1677,
+1677,1677,1677,1677,1677,1677,1677,1677,
+1677,1677,1677,1677,1677,1677,1677,1677
+</data>
+ </layer>
+ <layer id="8" name="interior" width="8" height="6">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,
+0,3537,0,0,3554,0,0,0,
+0,3553,0,0,0,0,3692,0,
+0,0,0,0,0,0,3708,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="2" name="walls" width="8" height="6">
+  <data encoding="csv">
+2306,2306,2306,2306,2306,2306,2069,2071,
+2071,0,0,0,0,2087,2087,2071,
+2071,0,0,0,0,0,0,2072,
+2071,0,0,0,0,0,0,2069,
+2079,2081,2078,2079,0,0,0,2069,
+2079,2099,2096,2097,2077,2079,2073,2070
+</data>
+ </layer>
+ <layer id="9" name="interior2" width="8" height="6">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,3676,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="4" name="shadow" width="8" height="6">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,
+0,3432,3432,3432,3432,3432,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,2072,
+0,0,0,0,0,0,0,2072,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="3" name="doors" width="8" height="6">
+  <data encoding="csv">
+0,0,0,0,0,0,2359,0,
+0,0,0,0,0,0,2377,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,2184,0
+</data>
+ </layer>
+</map>

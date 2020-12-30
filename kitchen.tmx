@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="7" height="5" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="1">
+ <tileset firstgid="1" source="tiles/tilesets/cija_32x32_expansion for Pipoya_CC0.tsx"/>
+ <tileset firstgid="2395" source="tiles/tilesets/LightShadow_pipo.tsx"/>
+ <tileset firstgid="2443" source="tiles/tilesets/mapUtilities.tsx"/>
+ <layer id="5" name="start" width="7" height="5">
+  <data encoding="csv">
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,2444,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="6" name="exit" width="7" height="5">
+  <data encoding="csv">
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+2443,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="7" name="stop" width="7" height="5">
+  <data encoding="csv">
+0,0,0,0,0,0,0,
+2446,2446,2446,2446,2446,2446,2446,
+0,0,0,0,0,0,2446,
+2446,0,0,0,0,0,2446,
+2446,2446,2446,2446,2446,2446,2446
+</data>
+ </layer>
+ <layer id="1" name="floor" width="7" height="5">
+  <data encoding="csv">
+688,688,688,688,688,688,688,
+688,688,688,688,688,688,688,
+688,688,688,688,688,688,688,
+688,688,688,688,688,688,688,
+688,688,688,688,688,688,688
+</data>
+ </layer>
+ <layer id="2" name="walls" width="7" height="5">
+  <data encoding="csv">
+1055,1057,1054,1054,1054,1054,1053,
+1055,1075,1072,1072,1072,1072,1053,
+1055,0,0,0,0,0,1053,
+1055,0,0,0,0,0,1053,
+1300,1300,1300,1300,1300,1300,1300
+</data>
+ </layer>
+ <layer id="8" name="interior" width="7" height="5">
+  <data encoding="csv">
+0,0,1480,1497,1481,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,1556,0,
+0,1569,1570,1570,1570,1591,0,
+0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="9" name="interior2" width="7" height="5">
+  <data encoding="csv">
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,2222,0,0,0,2163,0,
+0,2240,1702,2204,2203,2201,0,
+0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="4" name="shadow" width="7" height="5">
+  <data encoding="csv">
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+2399,0,0,0,0,0,0,
+0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="3" name="doors" width="7" height="5">
+  <data encoding="csv">
+0,0,0,0,0,0,0,
+1160,0,0,0,0,0,0,
+1178,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,1335,0,0,0,0
+</data>
+ </layer>
+</map>
