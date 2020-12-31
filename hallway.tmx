@@ -72,6 +72,11 @@
  <tileset firstgid="3409" source="tiles/tilesets/rpg.tsx"/>
  <tileset firstgid="4473" name="mapUtilities" tilewidth="32" tileheight="32" tilecount="9" columns="9">
   <image source="tiles/mapUtilities.png" width="288" height="32"/>
+  <tile id="3">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
  </tileset>
  <tileset firstgid="4482" name="cija_32x32_basic_CC0" tilewidth="32" tileheight="32" tilecount="600" columns="20">
   <image source="tiles/cija_32x32_basic_CC0.png" width="640" height="960"/>
@@ -280,7 +285,7 @@
 0,0,0,0,4476,0,4476,4476,4476,0,4476,4476,0,0,0,0
 </data>
  </layer>
- <layer id="3" name="floor" width="16" height="8">
+ <layer id="3" name="floor" width="16" height="8" visible="0">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -292,7 +297,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="1" name="walls" width="16" height="8">
+ <layer id="1" name="walls" width="16" height="8" visible="0">
   <data encoding="csv">
 2395,2396,2397,2398,2399,2400,2401,2402,2403,2404,2395,2396,2397,2398,2399,2400,
 2405,2406,2407,2408,2409,2410,2411,2412,2413,2414,2405,2406,2407,2408,2409,2410,
@@ -304,7 +309,7 @@
 2465,2466,2467,2468,1055,1053,1055,941,938,938,938,938,2467,2468,2469,2470
 </data>
  </layer>
- <layer id="4" name="deco" width="16" height="8">
+ <layer id="4" name="deco" width="16" height="8" visible="0">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -316,7 +321,7 @@
 0,0,0,0,0,0,0,0,0,0,2800,0,0,0,0,0
 </data>
  </layer>
- <layer id="2" name="doors" width="16" height="8">
+ <layer id="2" name="doors" width="16" height="8" visible="0">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -328,5 +333,5 @@
 0,0,0,0,0,1160,0,0,0,1196,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="8" name="floorLayer"/>
+ <objectgroup id="8" name="floorLayer" visible="0"/>
 </map>

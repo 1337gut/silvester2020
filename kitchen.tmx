@@ -9,6 +9,11 @@
  <tileset firstgid="2395" source="tiles/tilesets/LightShadow_pipo.tsx"/>
  <tileset firstgid="2443" name="mapUtilities" tilewidth="32" tileheight="32" tilecount="9" columns="9">
   <image source="tiles/mapUtilities.png" width="288" height="32"/>
+  <tile id="3">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
  </tileset>
  <tileset firstgid="2452" name="cija_32x32_basic_CC0" tilewidth="32" tileheight="32" tilecount="600" columns="20">
   <image source="tiles/cija_32x32_basic_CC0.png" width="640" height="960"/>

@@ -23,6 +23,11 @@
  </tileset>
  <tileset firstgid="5771" name="mapUtilities" tilewidth="32" tileheight="32" tilecount="9" columns="9">
   <image source="tiles/mapUtilities.png" width="288" height="32"/>
+  <tile id="3">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
  </tileset>
  <tileset firstgid="5780" name="minideko" tilewidth="32" tileheight="32" tilecount="91" columns="7">
   <image source="tiles/minideko.png" width="224" height="416"/>

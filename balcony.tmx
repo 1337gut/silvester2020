@@ -17,6 +17,11 @@
  </tileset>
  <tileset firstgid="2799" name="mapUtilities" tilewidth="32" tileheight="32" tilecount="9" columns="9">
   <image source="tiles/mapUtilities.png" width="288" height="32"/>
+  <tile id="3">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
  </tileset>
  <layer id="6" name="startLivingroom" width="16" height="8">
   <properties>

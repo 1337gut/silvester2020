@@ -12,6 +12,11 @@
  </tileset>
  <tileset firstgid="3467" name="mapUtilities" tilewidth="32" tileheight="32" tilecount="9" columns="9">
   <image source="tiles/mapUtilities.png" width="288" height="32"/>
+  <tile id="3">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
  </tileset>
  <tileset firstgid="3476" source="tiles/tilesets/tilesets_deviant_milkian_1.tsx"/>
  <tileset firstgid="3732" name="rc3-mullana-stars" tilewidth="32" tileheight="32" tilecount="100" columns="10">

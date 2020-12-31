@@ -11,6 +11,11 @@
  </tileset>
  <tileset firstgid="2495" name="mapUtilities" tilewidth="32" tileheight="32" tilecount="9" columns="9">
   <image source="tiles/mapUtilities.png" width="288" height="32"/>
+  <tile id="3">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
  </tileset>
  <tileset firstgid="2504" name="LightShadow_pipo" tilewidth="32" tileheight="32" tilecount="48" columns="8">
   <image source="tiles/Pipoya RPG Tileset 32x32/LightShadow_pipo.png" width="256" height="192"/>
