@@ -1,92 +1,111 @@
 { "compressionlevel":-1,
- "height":6,
+ "editorsettings":
+    {
+     "export":
+        {
+         "format":"json",
+         "target":"hallway.json"
+        }
+    },
+ "height":8,
  "infinite":false,
  "layers":[
         {
-         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4474, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4474, 0, 0, 0, 4474, 0, 0, 0, 4474, 4474, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-         "height":6,
+         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4474, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4474, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4474, 0, 0, 0, 4474, 4474, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+         "height":8,
          "id":6,
          "name":"start",
          "opacity":1,
          "type":"tilelayer",
          "visible":true,
-         "width":8,
+         "width":16,
          "x":0,
          "y":0
         }, 
         {
-         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 4473, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4473, 0, 0, 4473, 0, 0, 0, 0, 0, 0, 4473, 4473, 0, 0, 0, 0, 0, 0, 4473, 0, 4473, 0, 0, 0, 4473, 0, 0],
-         "height":6,
+         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4473, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4473, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4473, 0, 0, 0, 0, 0, 0, 4473, 0, 0, 0, 0, 0, 0, 0, 0, 4473, 0, 0, 0, 0, 0, 0, 4473, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4473, 0, 0, 0, 4473, 0, 0, 0, 0, 0, 0],
+         "height":8,
          "id":5,
          "name":"exit",
          "opacity":1,
          "type":"tilelayer",
          "visible":true,
-         "width":8,
+         "width":16,
          "x":0,
          "y":0
         }, 
         {
-         "data":[0, 0, 0, 0, 0, 0, 0, 0, 4476, 0, 4476, 4476, 0, 0, 0, 0, 4476, 0, 0, 4476, 4476, 0, 4476, 4476, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4476, 0, 4476, 4476, 4476, 0, 4476, 4476],
-         "height":6,
+         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4476, 0, 4476, 4476, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4476, 0, 0, 4476, 4476, 0, 4476, 4476, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4476, 0, 4476, 4476, 4476, 0, 4476, 4476, 0, 0, 0, 0],
+         "height":8,
          "id":7,
          "name":"stop",
          "opacity":1,
          "type":"tilelayer",
          "visible":true,
-         "width":8,
+         "width":16,
          "x":0,
          "y":0
         }, 
         {
-         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 688, 688, 0, 0, 0, 0, 0, 0, 688, 688, 688, 688, 688, 688, 0, 0, 688, 688, 688, 688, 688, 688, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-         "height":6,
+         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 688, 688, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 688, 688, 688, 688, 688, 688, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 688, 688, 688, 688, 688, 688, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+         "height":8,
          "id":3,
          "name":"floor",
          "opacity":1,
          "type":"tilelayer",
          "visible":true,
-         "width":8,
+         "width":16,
          "x":0,
          "y":0
         }, 
         {
-         "data":[1055, 1057, 1055, 2395, 2396, 2397, 2398, 2399, 1055, 1075, 1073, 1053, 1054, 1054, 1054, 1053, 1055, 0, 0, 1071, 1072, 1072, 1072, 1053, 1055, 0, 0, 0, 0, 0, 0, 1053, 1055, 0, 0, 0, 0, 0, 0, 1071, 1055, 1053, 1055, 941, 938, 938, 938, 938],
-         "height":6,
+         "data":[2395, 2396, 2397, 2398, 2399, 2400, 2401, 2402, 2403, 2404, 2395, 2396, 2397, 2398, 2399, 2400, 2405, 2406, 2407, 2408, 2409, 2410, 2411, 2412, 2413, 2414, 2405, 2406, 2407, 2408, 2409, 2410, 2415, 2416, 2417, 2418, 1055, 1057, 1055, 2395, 2396, 2397, 2398, 2399, 2417, 2418, 2419, 2420, 2425, 2426, 2427, 2428, 1055, 1075, 1073, 1053, 1054, 1054, 1054, 1053, 2427, 2428, 2429, 2430, 2435, 2436, 2437, 2438, 1055, 0, 0, 1071, 1072, 1072, 1072, 1053, 2437, 2438, 2439, 2440, 2445, 2446, 2447, 2448, 1055, 0, 0, 0, 0, 0, 0, 1053, 2447, 2448, 2449, 2450, 2455, 2456, 2457, 2458, 1055, 0, 0, 0, 0, 0, 0, 1071, 2457, 2458, 2459, 2460, 2465, 2466, 2467, 2468, 1055, 1053, 1055, 941, 938, 938, 938, 938, 2467, 2468, 2469, 2470],
+         "height":8,
          "id":1,
          "name":"walls",
          "opacity":1,
          "type":"tilelayer",
          "visible":true,
-         "width":8,
+         "width":16,
          "x":0,
          "y":0
         }, 
         {
-         "data":[0, 0, 0, 0, 0, 0, 0, 0, 3408, 0, 0, 4033, 4034, 0, 0, 0, 0, 0, 0, 4041, 4042, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-         "height":6,
+         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4486, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3408, 0, 0, 4033, 4034, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5223, 4041, 4042, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5198, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+         "height":8,
          "id":4,
          "name":"deco",
          "opacity":1,
          "type":"tilelayer",
          "visible":true,
-         "width":8,
+         "width":16,
          "x":0,
          "y":0
         }, 
         {
-         "data":[0, 1160, 0, 0, 0, 0, 0, 0, 0, 1178, 0, 0, 0, 1160, 0, 0, 0, 0, 0, 0, 0, 1178, 0, 0, 1160, 0, 0, 0, 0, 0, 0, 1160, 1178, 0, 0, 0, 0, 0, 0, 1178, 0, 1160, 0, 0, 0, 1196, 0, 0],
-         "height":6,
+         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1160, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1178, 0, 0, 0, 1160, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1178, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1160, 0, 0, 0, 0, 0, 0, 1160, 0, 0, 0, 0, 0, 0, 0, 0, 1178, 0, 0, 0, 0, 0, 0, 1178, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1160, 0, 0, 0, 1196, 0, 0, 0, 0, 0, 0],
+         "height":8,
          "id":2,
          "name":"doors",
          "opacity":1,
          "type":"tilelayer",
          "visible":true,
-         "width":8,
+         "width":16,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":8,
+         "name":"floorLayer",
+         "objects":[],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
          "x":0,
          "y":0
         }],
- "nextlayerid":8,
+ "nextlayerid":9,
  "nextobjectid":1,
  "orientation":"orthogonal",
  "renderorder":"right-down",
@@ -94,31 +113,244 @@
  "tileheight":32,
  "tilesets":[
         {
+         "columns":18,
          "firstgid":1,
-         "source":"tiles\/tilesets\/cija_32x32_expansion for Pipoya_CC0.tsx"
+         "image":"tiles\/cija_32x32_expansion for Pipoya_CC0.png",
+         "imageheight":4256,
+         "imagewidth":576,
+         "margin":0,
+         "name":"cija_32x32_expansion for Pipoya_CC0",
+         "spacing":0,
+         "tilecount":2394,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
+         "columns":10,
          "firstgid":2395,
-         "source":"tiles\/tilesets\/rc3-mullana-stars.tsx"
+         "image":"tiles\/rc3-mullana-stars.png",
+         "imageheight":320,
+         "imagewidth":320,
+         "margin":0,
+         "name":"rc3-mullana-stars",
+         "spacing":0,
+         "tilecount":100,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
          "firstgid":2495,
          "source":"tiles\/tilesets\/Interior 1.tsx"
         }, 
         {
+         "columns":0,
          "firstgid":3391,
-         "source":"tiles\/tilesets\/Sammlung.tsx"
+         "grid":
+            {
+             "height":1,
+             "orientation":"orthogonal",
+             "width":1
+            },
+         "margin":0,
+         "name":"Sammlung",
+         "spacing":0,
+         "tilecount":18,
+         "tileheight":64,
+         "tiles":[
+                {
+                 "id":0,
+                 "image":"tiles\/brot1.png",
+                 "imageheight":32,
+                 "imagewidth":32
+                }, 
+                {
+                 "id":1,
+                 "image":"tiles\/brot2.png",
+                 "imageheight":32,
+                 "imagewidth":32
+                }, 
+                {
+                 "id":2,
+                 "image":"tiles\/brotplakat.png",
+                 "imageheight":64,
+                 "imagewidth":32
+                }, 
+                {
+                 "id":3,
+                 "image":"tiles\/cyber.png",
+                 "imageheight":32,
+                 "imagewidth":32
+                }, 
+                {
+                 "id":4,
+                 "image":"tiles\/cyber1.png",
+                 "imageheight":32,
+                 "imagewidth":32
+                }, 
+                {
+                 "id":5,
+                 "image":"tiles\/cyber2.png",
+                 "imageheight":32,
+                 "imagewidth":32
+                }, 
+                {
+                 "id":6,
+                 "image":"tiles\/cyber3.png",
+                 "imageheight":32,
+                 "imagewidth":32
+                }, 
+                {
+                 "id":7,
+                 "image":"tiles\/cyber4.png",
+                 "imageheight":32,
+                 "imagewidth":32
+                }, 
+                {
+                 "id":8,
+                 "image":"tiles\/mehlsack.png",
+                 "imageheight":32,
+                 "imagewidth":32
+                }, 
+                {
+                 "id":9,
+                 "image":"tiles\/schuessel_pink.png",
+                 "imageheight":32,
+                 "imagewidth":32
+                }, 
+                {
+                 "id":10,
+                 "image":"tiles\/schuessel_blau.png",
+                 "imageheight":32,
+                 "imagewidth":32
+                }, 
+                {
+                 "id":11,
+                 "image":"tiles\/schuessel_gruen.png",
+                 "imageheight":32,
+                 "imagewidth":32
+                }, 
+                {
+                 "id":12,
+                 "image":"tiles\/schuessel_orange.png",
+                 "imageheight":32,
+                 "imagewidth":32
+                }, 
+                {
+                 "id":13,
+                 "image":"tiles\/worldExit.png",
+                 "imageheight":64,
+                 "imagewidth":64
+                }, 
+                {
+                 "id":14,
+                 "image":"tiles\/unicorn.png",
+                 "imageheight":32,
+                 "imagewidth":32
+                }, 
+                {
+                 "id":15,
+                 "image":"tiles\/unicorn_2.png",
+                 "imageheight":32,
+                 "imagewidth":32
+                }, 
+                {
+                 "id":16,
+                 "image":"tiles\/waffelplakat.png",
+                 "imageheight":64,
+                 "imagewidth":32
+                }, 
+                {
+                 "id":17,
+                 "image":"tiles\/wc_unisex.png",
+                 "imageheight":32,
+                 "imagewidth":32
+                }],
+         "tilewidth":64
         }, 
         {
          "firstgid":3409,
          "source":"tiles\/tilesets\/rpg.tsx"
         }, 
         {
+         "columns":9,
          "firstgid":4473,
-         "source":"tiles\/tilesets\/mapUtilities.tsx"
+         "image":"tiles\/mapUtilities.png",
+         "imageheight":32,
+         "imagewidth":288,
+         "margin":0,
+         "name":"mapUtilities",
+         "spacing":0,
+         "tilecount":9,
+         "tileheight":32,
+         "tilewidth":32
+        }, 
+        {
+         "columns":20,
+         "firstgid":4482,
+         "image":"tiles\/cija_32x32_basic_CC0.png",
+         "imageheight":960,
+         "imagewidth":640,
+         "margin":0,
+         "name":"cija_32x32_basic_CC0",
+         "spacing":0,
+         "tilecount":600,
+         "tileheight":32,
+         "tilewidth":32
+        }, 
+        {
+         "columns":8,
+         "firstgid":5082,
+         "image":"tiles\/Pipoya RPG Tileset 32x32\/LightShadow_pipo.png",
+         "imageheight":192,
+         "imagewidth":256,
+         "margin":0,
+         "name":"LightShadow_pipo",
+         "spacing":0,
+         "tilecount":48,
+         "tileheight":32,
+         "tilewidth":32
+        }, 
+        {
+         "columns":7,
+         "firstgid":5130,
+         "image":"tiles\/minideko.png",
+         "imageheight":416,
+         "imagewidth":224,
+         "margin":0,
+         "name":"minideko",
+         "spacing":0,
+         "tilecount":91,
+         "tileheight":32,
+         "tilewidth":32
+        }, 
+        {
+         "columns":16,
+         "firstgid":5221,
+         "image":"tiles\/rc3-mullana-objects.png",
+         "imageheight":256,
+         "imagewidth":512,
+         "margin":0,
+         "name":"rc3-mullana-objects",
+         "spacing":0,
+         "tilecount":128,
+         "tileheight":32,
+         "tilewidth":32
+        }, 
+        {
+         "columns":1,
+         "firstgid":5349,
+         "image":"tiles\/wc_unisex.png",
+         "imageheight":32,
+         "imagewidth":32,
+         "margin":0,
+         "name":"wc_unisex",
+         "spacing":0,
+         "tilecount":1,
+         "tileheight":32,
+         "tilewidth":32
         }],
  "tilewidth":32,
  "type":"map",
  "version":1.4,
- "width":8
+ "width":16
 }
