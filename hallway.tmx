@@ -86,15 +86,18 @@
  <tileset firstgid="5349" name="wc_unisex" tilewidth="32" tileheight="32" tilecount="1" columns="1">
   <image source="tiles/wc_unisex.png" width="32" height="32"/>
  </tileset>
- <layer id="6" name="start" width="16" height="8">
+ <layer id="6" name="startEntry" width="16" height="8">
+  <properties>
+   <property name="startLayer" type="bool" value="true"/>
+  </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,4474,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,4474,0,0,0,0,0,0,
-0,0,0,0,0,4474,0,0,0,4474,4474,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
@@ -122,7 +125,7 @@
 0,0,0,0,4476,0,4476,4476,4476,0,4476,4476,0,0,0,0
 </data>
  </layer>
- <layer id="3" name="floor" width="16" height="8">
+ <layer id="3" name="floor" width="16" height="8" visible="0">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -134,7 +137,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="1" name="walls" width="16" height="8">
+ <layer id="1" name="walls" width="16" height="8" visible="0">
   <data encoding="csv">
 2395,2396,2397,2398,2399,2400,2401,2402,2403,2404,2395,2396,2397,2398,2399,2400,
 2405,2406,2407,2408,2409,2410,2411,2412,2413,2414,2405,2406,2407,2408,2409,2410,
@@ -158,7 +161,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="2" name="doors" width="16" height="8">
+ <layer id="2" name="doors" width="16" height="8" visible="0">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
