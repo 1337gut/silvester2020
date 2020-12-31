@@ -1,90 +1,195 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="6" height="6" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="1">
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="16" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="1">
  <editorsettings>
   <export target="office.json" format="json"/>
  </editorsettings>
- <tileset firstgid="1" source="tiles/tilesets/cija_32x32_expansion for Pipoya_CC0.tsx"/>
- <tileset firstgid="2395" source="tiles/tilesets/rc3-mullana-stars.tsx"/>
- <tileset firstgid="2495" source="tiles/tilesets/mapUtilities.tsx"/>
- <tileset firstgid="2504" source="tiles/tilesets/tilesets_deviant_milkian_1.tsx"/>
- <layer id="4" name="start" width="6" height="6">
+ <tileset firstgid="1" name="cija_32x32_expansion for Pipoya_CC0" tilewidth="32" tileheight="32" tilecount="2394" columns="18">
+  <image source="tiles/cija_32x32_expansion for Pipoya_CC0.png" width="576" height="4256"/>
+ </tileset>
+ <tileset firstgid="2395" name="rc3-mullana-stars" tilewidth="32" tileheight="32" tilecount="100" columns="10">
+  <image source="tiles/rc3-mullana-stars.png" width="320" height="320"/>
+ </tileset>
+ <tileset firstgid="2495" name="mapUtilities" tilewidth="32" tileheight="32" tilecount="9" columns="9">
+  <image source="tiles/mapUtilities.png" width="288" height="32"/>
+ </tileset>
+ <tileset firstgid="2504" name="tilesets_deviant_milkian_1" tilewidth="34" tileheight="34" tilecount="256" columns="16">
+  <image source="tilesets_deviant_milkian_1.png" width="544" height="544"/>
+ </tileset>
+ <tileset firstgid="2760" name="cija_32x32_basic_CC0" tilewidth="32" tileheight="32" tilecount="600" columns="20">
+  <image source="tiles/cija_32x32_basic_CC0.png" width="640" height="960"/>
+ </tileset>
+ <tileset firstgid="3360" name="Interior 1" tilewidth="32" tileheight="32" tilecount="896" columns="16">
+  <image source="tiles/Interiors_free/32x32/Interiors_free_32x32.png" width="512" height="1792"/>
+ </tileset>
+ <tileset firstgid="4256" name="LightShadow_pipo" tilewidth="32" tileheight="32" tilecount="48" columns="8">
+  <image source="tiles/Pipoya RPG Tileset 32x32/LightShadow_pipo.png" width="256" height="192"/>
+ </tileset>
+ <tileset firstgid="4304" name="minideko" tilewidth="32" tileheight="32" tilecount="91" columns="7">
+  <image source="tiles/minideko.png" width="224" height="416"/>
+ </tileset>
+ <tileset firstgid="4395" name="rc3-mullana-objects" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="tiles/rc3-mullana-objects.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="4523" name="rpg" tilewidth="32" tileheight="32" tilecount="1064" columns="8">
+  <image source="tiles/Pipoya RPG Tileset 32x32/[Base]BaseChip_pipo.png" width="256" height="4256"/>
+ </tileset>
+ <tileset firstgid="5587" name="Sammlung" tilewidth="64" tileheight="64" tilecount="18" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="32" height="32" source="tiles/brot1.png"/>
+  </tile>
+  <tile id="1">
+   <image width="32" height="32" source="tiles/brot2.png"/>
+  </tile>
+  <tile id="2">
+   <image width="32" height="64" source="tiles/brotplakat.png"/>
+  </tile>
+  <tile id="3">
+   <image width="32" height="32" source="tiles/cyber.png"/>
+  </tile>
+  <tile id="4">
+   <image width="32" height="32" source="tiles/cyber1.png"/>
+  </tile>
+  <tile id="5">
+   <image width="32" height="32" source="tiles/cyber2.png"/>
+  </tile>
+  <tile id="6">
+   <image width="32" height="32" source="tiles/cyber3.png"/>
+  </tile>
+  <tile id="7">
+   <image width="32" height="32" source="tiles/cyber4.png"/>
+  </tile>
+  <tile id="8">
+   <image width="32" height="32" source="tiles/mehlsack.png"/>
+  </tile>
+  <tile id="9">
+   <image width="32" height="32" source="tiles/schuessel_pink.png"/>
+  </tile>
+  <tile id="10">
+   <image width="32" height="32" source="tiles/schuessel_blau.png"/>
+  </tile>
+  <tile id="11">
+   <image width="32" height="32" source="tiles/schuessel_gruen.png"/>
+  </tile>
+  <tile id="12">
+   <image width="32" height="32" source="tiles/schuessel_orange.png"/>
+  </tile>
+  <tile id="13">
+   <image width="64" height="64" source="tiles/worldExit.png"/>
+  </tile>
+  <tile id="14">
+   <image width="32" height="32" source="tiles/unicorn.png"/>
+  </tile>
+  <tile id="15">
+   <image width="32" height="32" source="tiles/unicorn_2.png"/>
+  </tile>
+  <tile id="16">
+   <image width="32" height="64" source="tiles/waffelplakat.png"/>
+  </tile>
+  <tile id="17">
+   <image width="32" height="32" source="tiles/wc_unisex.png"/>
+  </tile>
+ </tileset>
+ <layer id="4" name="start" width="16" height="8">
+  <properties>
+   <property name="startLayer" type="bool" value="true"/>
+  </properties>
   <data encoding="csv">
-0,0,0,0,0,0,
-0,0,0,0,0,0,
-0,0,0,0,0,0,
-0,0,0,0,2496,0,
-0,0,0,0,0,0,
-0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,2496,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="5" name="exit" width="6" height="6">
+ <layer id="5" name="exit" width="16" height="8">
+  <properties>
+   <property name="exitUrl" value="hallway.json#startOffice"/>
+  </properties>
   <data encoding="csv">
-0,0,0,0,0,0,
-0,0,0,0,0,0,
-0,0,0,0,0,0,
-0,0,0,0,0,2495,
-0,0,0,0,0,0,
-0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,2495,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="6" name="stop" width="6" height="6">
+ <layer id="6" name="collides" width="16" height="8">
   <data encoding="csv">
-0,0,0,0,0,0,
-2498,2498,2498,2498,2498,0,
-2498,0,0,0,2498,2498,
-2498,0,0,0,0,0,
-2498,0,0,0,0,2498,
-2498,2498,2498,2498,2498,2498
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,2498,2498,2498,2498,2498,0,0,0,0,0,0,
+0,0,0,0,0,2498,0,0,0,2498,2498,0,0,0,0,0,
+0,0,0,0,0,2498,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,2498,0,0,0,0,2498,0,0,0,0,0,
+0,0,0,0,0,2498,2498,2498,2498,2498,2498,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="1" name="floor" width="6" height="6">
+ <layer id="1" name="floor" width="16" height="8">
   <data encoding="csv">
-688,688,688,688,688,688,
-688,688,688,688,688,688,
-688,688,688,688,688,688,
-688,688,688,688,688,688,
-688,688,688,688,688,688,
-688,688,688,688,688,688
+2395,2396,2397,2398,2399,2400,2401,2402,2403,2404,2395,2396,2397,2398,2399,2400,
+2405,2406,2407,2408,2409,688,688,688,688,688,688,2406,2407,2408,2409,2410,
+2415,2416,2417,2418,2419,688,688,688,688,688,688,2416,2417,2418,2419,2420,
+2425,2426,2427,2428,2429,688,688,688,688,688,688,2426,2427,2428,2429,2430,
+2435,2436,2437,2438,2439,688,688,688,688,688,688,2436,2437,2438,2439,2440,
+2445,2446,2447,2448,2449,688,688,688,688,688,688,2446,2447,2448,2449,2450,
+2455,2456,2457,2458,2459,688,688,688,688,688,688,2456,2457,2458,2459,2460,
+2465,2466,2467,2468,2469,2470,2471,2472,2473,2474,2465,2466,2467,2468,2469,2470
 </data>
  </layer>
- <layer id="2" name="walls" width="6" height="6">
+ <layer id="2" name="walls" width="16" height="8">
   <data encoding="csv">
-1055,1057,1054,1055,2477,2478,
-1055,1075,1072,1073,1053,1053,
-1055,0,0,0,1071,1053,
-1055,0,0,0,0,1053,
-1055,0,0,0,0,1053,
-1055,1057,1054,1054,1054,1054
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,1055,1057,1054,1055,2477,2478,0,0,0,0,0,
+0,0,0,0,0,1055,1075,1072,1073,1053,1053,0,0,0,0,0,
+0,0,0,0,0,1055,0,0,0,1071,1053,0,0,0,0,0,
+0,0,0,0,0,1055,0,0,0,0,1053,0,0,0,0,0,
+0,0,0,0,0,1055,0,0,0,0,1053,0,0,0,0,0,
+0,0,0,0,0,1055,1057,1054,1054,1054,1054,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="3" name="doors" width="6" height="6">
+ <layer id="3" name="doors" width="16" height="8">
   <data encoding="csv">
-0,0,0,0,0,0,
-1335,0,0,0,0,0,
-1353,0,0,0,0,1160,
-1335,0,0,0,0,1178,
-1353,0,0,0,0,0,
-0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,1335,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,1353,0,0,0,0,1160,0,0,0,0,0,
+0,0,0,0,0,1335,0,0,0,0,1178,0,0,0,0,0,
+0,0,0,0,0,1353,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="7" name="interior" width="6" height="6">
+ <layer id="7" name="interior" width="16" height="8">
   <data encoding="csv">
-0,0,0,0,0,0,
-0,2659,2660,2661,0,0,
-0,2675,2676,2677,0,0,
-0,0,0,0,0,0,
-0,2748,2749,2750,0,0,
-0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,2659,2660,2661,5594,0,0,0,0,0,0,
+0,0,0,0,0,0,2675,2676,2677,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,2748,2749,2750,4397,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="8" name="interior2" width="6" height="6">
+ <layer id="8" name="interior2" width="16" height="8">
   <data encoding="csv">
-0,2604,2687,2694,0,0,
-0,2679,0,2710,0,0,
-0,0,2617,0,0,0,
-0,0,0,0,0,0,
-0,0,0,0,0,0,
-0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,2604,2687,2694,0,0,0,0,0,0,0,
+0,0,0,0,0,0,2679,0,2710,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,2617,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
  <objectgroup id="9" name="floorLayer"/>
